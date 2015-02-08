@@ -1,5 +1,5 @@
 # pythonmap
-## A guide to creating filled maps (or chloropleths) with Python
+### A guide to creating filled maps (or chloropleths) with Python
 <img src='pymap3.png'>
 
 First, big thanks to Stephan Hügel for his excellent [guide to mapping with Python](http://sensitivecities.com/so-youd-like-to-make-a-map-using-python-EN.html#.VNZHhVXF8kR). 
@@ -10,6 +10,12 @@ For this guide, I focus on creating a filled map of Sri Lanka. I use some basic 
 
 The shapefile I obtained is from the [Spatial Data Repository](http://spatialdata.dhsprogram.com/boundaries/#countryId=LK&view=map&surveyId=19&level=1) 
 where you can find detailed shapefiles for most countries. 
+
+## How this works
+I highly recommend cloning this repository and using *SL Map.ipynb* to step through the guide as an iPython Notebook. If you're not familiar with iPython notebook or don't have it,
+one of the easiest ways to get started is to download the [Anaconda](https://store.continuum.io/cshop/anaconda/) distribution of Python from Continuum Analytics.
+To run iPython notebook open up a command line prompt and navigate to the directory that contains this repository. Then execute
+	ipython notebook
 
 ## Requirements
 * pandas
