@@ -15,6 +15,7 @@ where you can find detailed shapefiles for most countries.
 I highly recommend cloning this repository and using *SL Map.ipynb* to step through the guide as an iPython Notebook. If you're not familiar with iPython notebook or don't have it,
 one of the easiest ways to get started is to download the [Anaconda](https://store.continuum.io/cshop/anaconda/) distribution of Python from Continuum Analytics.
 To run iPython notebook open up a command line prompt and navigate to the directory that contains this repository. Then execute
+
 	ipython notebook
 
 ## Requirements
