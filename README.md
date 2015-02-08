@@ -19,7 +19,7 @@ To run iPython notebook open up a command line prompt and navigate to the direct
 	ipython notebook
 
 Alternatively, you can go to my site where I have hosted a static version you can read through:
-[brandonrose.org/pythonmap](brandonrose.org/pythonmap)
+[brandonrose.org/pythonmap](http://www.brandonrose.org/pythonmap)
 
 ## Requirements
 * pandas
