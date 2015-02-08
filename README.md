@@ -18,6 +18,9 @@ To run iPython notebook open up a command line prompt and navigate to the direct
 
 	ipython notebook
 
+Alternatively, you can go to my site where I have hosted a static version you can read through:
+[brandonrose.org/pythonmap](brandonrose.org/pythonmap)
+
 ## Requirements
 * pandas
 * numpy
@@ -32,3 +35,6 @@ To run iPython notebook open up a command line prompt and navigate to the direct
 Up front, you are going to need to install some packages you might not have used before. I had to install pysal, descartes, shapely, and Basemap. Install Basemap with:
 
     pip install basemap --allow-external basemap --allow-unverified basemap
+
+## Questions?
+Feel free to hit me up on github or on twitter @brandonmrose
