@@ -32,9 +32,31 @@ Alternatively, you can go to my site where I have hosted a static version you ca
 * fiona
 * itertools
 
-Up front, you are going to need to install some packages you might not have used before. I had to install pysal, descartes, shapely, and Basemap. Install Basemap with:
+Up front, you are going to need to install some packages you might not have used before. I had to install pysal, descartes, shapely, and Basemap. Install **Basemap** with:
 
     pip install basemap --allow-external basemap --allow-unverified basemap
+    
+On Ubuntu I was able to install **Basemap** using:
+	
+	sudo apt-get install python-matplotlib
+	sudo apt-get install python-mpltoolkits.basemap
+    
+If those options don't work you probably need to install **GDAL**. If you're on a Mac, go to the [kyngchaos site](http://www.kyngchaos.com/software/frameworks) and
+use the GDAL 1.11 complete installer. 
+
+If you're using Ubuntu, you should be able to install via:
+
+	sudo apt-get install gdal-bin
+
+If you're using Windows...good luck! Let me know if you're successful getting GDAL installed and if so how you managed it.
+
+For installing **Fiona** you will probably need to install
+	
+	sudo apt-get install python-dev libxml2-dev libxslt-dev
+	
+and on Ubuntu potentially
+
+	sudo apt-get install g++
 
 ## Questions?
 Feel free to hit me up on github or on twitter @brandonmrose
