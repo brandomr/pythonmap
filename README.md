@@ -22,6 +22,10 @@ Alternatively, you can go to my site where I have hosted a static version you ca
 [brandonrose.org/pythonmap](http://www.brandonrose.org/pythonmap)
 
 ## Requirements
+Apologies in advance, it took some trial and error to install **Basemap** and **fiona**. I did my best to outline what I tried and what worked for me.
+I successfully installed on both Mac OSX and Ubuntu.
+
+You'll need:
 * pandas
 * numpy
 * matplotlib
@@ -57,6 +61,11 @@ For installing **Fiona** you will probably need to install
 and on Ubuntu potentially
 
 	sudo apt-get install g++
+	
+## Installing on Ubuntu
+If you still have problems installing **Basemap** on Ubuntu try loading Anaconda and executing the below bash command. This seems to circumvent many of the issues mentioned above. 
+
+	conda install --yes ipython setuptools numpy scipy gdal pillow basemap nose
 
 ## Questions?
 Feel free to hit me up on github or on twitter @brandonmrose
